@@ -4,3 +4,14 @@ What happens when you initialize a repository? Why do you need to do it?
 You create the directory and initial meta data required to start a repository. 
 
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+In that it is an area to consolidate file changes to be made as one logical commit. It also separates these files from a possibly disorganized working directory containing files that may never be committed.  
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By adding all the necessary files for the logical change to the staging area prior to making the commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would help to keep a logical group of commits/changes related to a release or functional change consolidated in order to isolate testing and development to that one feature change or release. 
