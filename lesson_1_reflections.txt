@@ -1,0 +1,96 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It displayed the side-by-side comparison of individual lines that differed making it easier see differences normally that were very difficult to spot in the files.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+This gives you the freedom to experiment and prototype with new ideas with no fear of being able to backtrack if need be. 
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pro to manually commiting has more to do with the logical dependencies your changes have with respect to the applocations stability and functionality.
+
+Pro to auto saving as more to do with the instability of your editor, computer or integrated development environment. Sudden crashes can be catastrophic.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Google Docs has a focus toward document version control where Git has a focus toward source-code version control where source files have a clear dependency and logical commit reason.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log -- <filename>
+git diff id-new id-old
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Because you can revert changes so easily.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to create a repository for the code I will be writing for the iOS Developer NanoDegree Program.
+
+
+
+
+
+
+
+
+git diff id1 id2
+
+git log
+git log  --stat
+
+
+
+
+
+One Commit per Logical Change Solution
+
+You commit all the changes required to add a new feature, which you’ve been working on for a week. You haven’t committed since you started working on it.
+
+This commit commit seems too big. It's easier to understand what each commit does if each only does one thing and is fairly small. Going a week without committing is not the best idea.
+
+You found three typos in your README. You fix and commit the first.
+
+This commit seems too small. It would be better to fix all three typos, then commit. That way, your history won't get too cluttered with typo fixes. Plus, you don’t need to worry about introducing bugs to a README, so bundling changes together is more likely to be a good idea.
+
+You commit all the changes required to add a new feature, which you’ve been working on for an hour.
+
+This is probably a good size for a commit. All the work is on a single feature, so the commit will have a clear logical purpose. After an hour, the diff will probably have a fair amount of content in it, but not too much to understand.
+
+On the other hand, sometimes after working for an hour you’ll have run into more than one natural committing point, in which case you would want to break the feature up into smaller commits. Because of this, “too big” could also be a reasonable answer here.
+
+You fix two small bugs in different functions and commit them both at once.
+
+This commit is probably too big. It would have been better to commit after the first bug fix, since the two bug fixes aren't related to each other.
+
+Judgement Call
+
+Choosing when to commit is a judgement call, and it's not always cut-and-dried. When choosing whether to commit, just keep in mind that each commit should have one clear, logical purpose, and you should never do too much work without committing.
+
+
+
+
+
+
+Should not be doing an octopus 
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state 
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+Panic! (the 'impossible' happened) 
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+Takeaway
+
+We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
+
+Back to Quiz
