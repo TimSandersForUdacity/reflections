@@ -23,3 +23,8 @@ It helps you to separate and organize logicalchanges to the source code and to u
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 This resulted in the interleaving of the commits from both branches based on time of commit. It resulted in the merging of the code with no apparent conflicts. We represent it in the diagram the way we do to show the logical separation of the changes to the code based on commited functionality.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging takes care of the tedious easy merge issues always leaving the few difficult issues for manually merging which saves a tremendous amount of time.
