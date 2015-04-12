@@ -15,3 +15,8 @@ By adding all the necessary files for the logical change to the staging area pri
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches would help to keep a logical group of commits/changes related to a release or functional change consolidated in order to isolate testing and development to that one feature change or release. 
+
+How do the diagrams help you visualize the branch structure?
+
+It helps you to separate and organize logicalchanges to the source code and to understand the visibility of those changes through the branches.
+
